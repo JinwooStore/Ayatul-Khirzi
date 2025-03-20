@@ -1,47 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
-
 body {
-    font-family: 'Amiri', serif;
-    background-color: #f8f8f8;
-    color: #333;
+    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
 }
 
 header {
     background-color: #009688;
     color: white;
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-button {
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-.verse {
-    padding: 20px;
-    margin: 10px auto;
+.content {
     max-width: 600px;
+    margin: 20px auto;
     background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    font-size: 24px;
-    color: #009688;
-    direction: rtl;
-}
-
-p {
-    font-size: 16px;
-    color: #555;
-}
+.scroll-image {
+    width: 100%;
+    max-width:
